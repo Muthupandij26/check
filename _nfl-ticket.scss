@@ -1,0 +1,91 @@
+.background {
+    background-image: url("images/nfl-ticket-bg.png");
+    padding: 30px;
+  }
+  
+  .nfl__ticket-heading{
+    color: #f8d661;
+    font-size: 3rem;
+    line-height: 55px;
+  }
+  .nfl__ticket-text {
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  .nfl__ticket-button {
+    background: #db8a47 0 0 no-repeat padding-box;
+    text-align: center;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 50px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  //just try media queries for iphonex
+  $breakpoint-tablet: 375px;
+  @media (min-width: $breakpoint-tablet) {
+    .nfl__ticket-button {
+        margin-bottom: 25px;
+    }
+  }
+
+
+  .bottom {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .nfl__offer-one, .nfl__offer-two {
+    background: #000000D8 0 0 no-repeat padding-box;
+    border: 1px solid #1f3150;
+    padding-bottom: 20px;
+  }
+  h5 {
+    color: #fff;
+    text-align: center;
+    background: #051024 0 0 no-repeat padding-box;
+    border-radius: 7px 7px 0 0;
+    padding: 10px 0;
+  }
+  .nfl__offer-one-heading, .nfl__offer-two-heading {
+    color: #87cde8;
+    padding: 10px 0 0 40px;
+  }
+  
+  .nfl__offer-one-subheading, .nfl__offer-two-subheading {
+      color: #87cde8;
+      padding: 10px 0 0 40px;
+      font-size: 12px;
+  }
+  .nfl__offer-one-logo, .nfl__offer-two-logo {
+     padding: 30px 0 0 40px;
+  }
+  .nfl__offer-one-description,.nfl__offer-two-description {
+      padding: 10px 0 10px 20px;
+      border-left: 4px solid #f8d661;
+      margin: 25px 0 25px 40px;
+      color: white;
+  }
+  .nfl__offer-one-legal, .nfl__offer-two-legal {
+    color: #fff;
+    padding: 30px 0;
+    font-size: 11px;
+    
+  }
+
+  .nfl__offer-one-call, .nfl__offer-two-call {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -25px;
+  }
+
+  .nfl__offer-one-call-button, .nfl__offer-two-call-button {
+    background: #db8a47;
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
